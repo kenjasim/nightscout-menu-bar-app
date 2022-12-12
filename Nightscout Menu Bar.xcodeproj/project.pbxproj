@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E1644D329479F2600CC2C20 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6EA622A42946663B000C7387 /* Nightscout Menu Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nightscout Menu Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA622A72946663B000C7387 /* Nightscout_Menu_BarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nightscout_Menu_BarApp.swift; sourceTree = "<group>"; };
 		6EA622A92946663B000C7387 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		6EA6229B2946663B000C7387 = {
 			isa = PBXGroup;
 			children = (
+				6E1644D329479F2600CC2C20 /* README.md */,
 				6EA622A62946663B000C7387 /* Nightscout Menu Bar */,
 				6EA622B82946663C000C7387 /* Nightscout Menu BarTests */,
 				6EA622C22946663C000C7387 /* Nightscout Menu BarUITests */,
