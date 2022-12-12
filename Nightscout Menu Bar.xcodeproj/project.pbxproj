@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EA622A82946663B000C7387 /* Nightscout_Menu_BarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA622A72946663B000C7387 /* Nightscout_Menu_BarApp.swift */; };
+		6EA622AA2946663B000C7387 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA622A92946663B000C7387 /* ContentView.swift */; };
+		6EA622AC2946663C000C7387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA622AB2946663C000C7387 /* Assets.xcassets */; };
+		6EA622AF2946663C000C7387 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA622AE2946663C000C7387 /* Preview Assets.xcassets */; };
+		6EA622BA2946663C000C7387 /* Nightscout_Menu_BarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA622B92946663C000C7387 /* Nightscout_Menu_BarTests.swift */; };
+		6EA622C42946663C000C7387 /* Nightscout_Menu_BarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA622C32946663C000C7387 /* Nightscout_Menu_BarUITests.swift */; };
+		6EA622C62946663C000C7387 /* Nightscout_Menu_BarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA622C52946663C000C7387 /* Nightscout_Menu_BarUITestsLaunchTests.swift */; };
+		6EA622D4294666D0000C7387 /* NSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA622D3294666D0000C7387 /* NSClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EA622B62946663C000C7387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EA6229C2946663B000C7387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EA622A32946663B000C7387;
+			remoteInfo = "Nightscout Menu Bar";
+		};
+		6EA622C02946663C000C7387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EA6229C2946663B000C7387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EA622A32946663B000C7387;
+			remoteInfo = "Nightscout Menu Bar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EA622A42946663B000C7387 /* Nightscout Menu Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nightscout Menu Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA622A72946663B000C7387 /* Nightscout_Menu_BarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nightscout_Menu_BarApp.swift; sourceTree = "<group>"; };
+		6EA622A92946663B000C7387 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EA622AB2946663C000C7387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EA622AE2946663C000C7387 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EA622B02946663C000C7387 /* Nightscout_Menu_Bar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nightscout_Menu_Bar.entitlements; sourceTree = "<group>"; };
+		6EA622B52946663C000C7387 /* Nightscout Menu BarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nightscout Menu BarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA622B92946663C000C7387 /* Nightscout_Menu_BarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nightscout_Menu_BarTests.swift; sourceTree = "<group>"; };
+		6EA622BF2946663C000C7387 /* Nightscout Menu BarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nightscout Menu BarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA622C32946663C000C7387 /* Nightscout_Menu_BarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nightscout_Menu_BarUITests.swift; sourceTree = "<group>"; };
+		6EA622C52946663C000C7387 /* Nightscout_Menu_BarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nightscout_Menu_BarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EA622D3294666D0000C7387 /* NSClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EA622A12946663B000C7387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA622B22946663C000C7387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA622BC2946663C000C7387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EA6229B2946663B000C7387 = {
+			isa = PBXGroup;
+			children = (
+				6EA622A62946663B000C7387 /* Nightscout Menu Bar */,
+				6EA622B82946663C000C7387 /* Nightscout Menu BarTests */,
+				6EA622C22946663C000C7387 /* Nightscout Menu BarUITests */,
+				6EA622A52946663B000C7387 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EA622A52946663B000C7387 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EA622A42946663B000C7387 /* Nightscout Menu Bar.app */,
+				6EA622B52946663C000C7387 /* Nightscout Menu BarTests.xctest */,
+				6EA622BF2946663C000C7387 /* Nightscout Menu BarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EA622A62946663B000C7387 /* Nightscout Menu Bar */ = {
+			isa = PBXGroup;
+			children = (
+				6EA622D2294666B7000C7387 /* Tools */,
+				6EA622A72946663B000C7387 /* Nightscout_Menu_BarApp.swift */,
+				6EA622A92946663B000C7387 /* ContentView.swift */,
+				6EA622AB2946663C000C7387 /* Assets.xcassets */,
+				6EA622B02946663C000C7387 /* Nightscout_Menu_Bar.entitlements */,
+				6EA622AD2946663C000C7387 /* Preview Content */,
+			);
+			path = "Nightscout Menu Bar";
+			sourceTree = "<group>";
+		};
+		6EA622AD2946663C000C7387 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6EA622AE2946663C000C7387 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EA622B82946663C000C7387 /* Nightscout Menu BarTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EA622B92946663C000C7387 /* Nightscout_Menu_BarTests.swift */,
+			);
+			path = "Nightscout Menu BarTests";
+			sourceTree = "<group>";
+		};
+		6EA622C22946663C000C7387 /* Nightscout Menu BarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EA622C32946663C000C7387 /* Nightscout_Menu_BarUITests.swift */,
+				6EA622C52946663C000C7387 /* Nightscout_Menu_BarUITestsLaunchTests.swift */,
+			);
+			path = "Nightscout Menu BarUITests";
+			sourceTree = "<group>";
+		};
+		6EA622D2294666B7000C7387 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6EA622D3294666D0000C7387 /* NSClient.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EA622A32946663B000C7387 /* Nightscout Menu Bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA622C92946663C000C7387 /* Build configuration list for PBXNativeTarget "Nightscout Menu Bar" */;
+			buildPhases = (
+				6EA622A02946663B000C7387 /* Sources */,
+				6EA622A12946663B000C7387 /* Frameworks */,
+				6EA622A22946663B000C7387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nightscout Menu Bar";
+			productName = "Nightscout Menu Bar";
+			productReference = 6EA622A42946663B000C7387 /* Nightscout Menu Bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EA622B42946663C000C7387 /* Nightscout Menu BarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA622CC2946663C000C7387 /* Build configuration list for PBXNativeTarget "Nightscout Menu BarTests" */;
+			buildPhases = (
+				6EA622B12946663C000C7387 /* Sources */,
+				6EA622B22946663C000C7387 /* Frameworks */,
+				6EA622B32946663C000C7387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EA622B72946663C000C7387 /* PBXTargetDependency */,
+			);
+			name = "Nightscout Menu BarTests";
+			productName = "Nightscout Menu BarTests";
+			productReference = 6EA622B52946663C000C7387 /* Nightscout Menu BarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EA622BE2946663C000C7387 /* Nightscout Menu BarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA622CF2946663C000C7387 /* Build configuration list for PBXNativeTarget "Nightscout Menu BarUITests" */;
+			buildPhases = (
+				6EA622BB2946663C000C7387 /* Sources */,
+				6EA622BC2946663C000C7387 /* Frameworks */,
+				6EA622BD2946663C000C7387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EA622C12946663C000C7387 /* PBXTargetDependency */,
+			);
+			name = "Nightscout Menu BarUITests";
+			productName = "Nightscout Menu BarUITests";
+			productReference = 6EA622BF2946663C000C7387 /* Nightscout Menu BarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EA6229C2946663B000C7387 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					6EA622A32946663B000C7387 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					6EA622B42946663C000C7387 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 6EA622A32946663B000C7387;
+					};
+					6EA622BE2946663C000C7387 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 6EA622A32946663B000C7387;
+					};
+				};
+			};
+			buildConfigurationList = 6EA6229F2946663B000C7387 /* Build configuration list for PBXProject "Nightscout Menu Bar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EA6229B2946663B000C7387;
+			productRefGroup = 6EA622A52946663B000C7387 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EA622A32946663B000C7387 /* Nightscout Menu Bar */,
+				6EA622B42946663C000C7387 /* Nightscout Menu BarTests */,
+				6EA622BE2946663C000C7387 /* Nightscout Menu BarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EA622A22946663B000C7387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA622AF2946663C000C7387 /* Preview Assets.xcassets in Resources */,
+				6EA622AC2946663C000C7387 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA622B32946663C000C7387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA622BD2946663C000C7387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EA622A02946663B000C7387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA622AA2946663B000C7387 /* ContentView.swift in Sources */,
+				6EA622A82946663B000C7387 /* Nightscout_Menu_BarApp.swift in Sources */,
+				6EA622D4294666D0000C7387 /* NSClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA622B12946663C000C7387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA622BA2946663C000C7387 /* Nightscout_Menu_BarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA622BB2946663C000C7387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA622C42946663C000C7387 /* Nightscout_Menu_BarUITests.swift in Sources */,
+				6EA622C62946663C000C7387 /* Nightscout_Menu_BarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EA622B72946663C000C7387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EA622A32946663B000C7387 /* Nightscout Menu Bar */;
+			targetProxy = 6EA622B62946663C000C7387 /* PBXContainerItemProxy */;
+		};
+		6EA622C12946663C000C7387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EA622A32946663B000C7387 /* Nightscout Menu Bar */;
+			targetProxy = 6EA622C02946663C000C7387 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6EA622C72946663C000C7387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EA622C82946663C000C7387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6EA622CA2946663C000C7387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nightscout Menu Bar/Nightscout_Menu_Bar.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nightscout Menu Bar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kenanjasim.com.Nightscout-Menu-Bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6EA622CB2946663C000C7387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nightscout Menu Bar/Nightscout_Menu_Bar.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nightscout Menu Bar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kenanjasim.com.Nightscout-Menu-Bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6EA622CD2946663C000C7387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kenanjasim.com.Nightscout-Menu-BarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nightscout Menu Bar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nightscout Menu Bar";
+			};
+			name = Debug;
+		};
+		6EA622CE2946663C000C7387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kenanjasim.com.Nightscout-Menu-BarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nightscout Menu Bar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nightscout Menu Bar";
+			};
+			name = Release;
+		};
+		6EA622D02946663C000C7387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kenanjasim.com.Nightscout-Menu-BarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Nightscout Menu Bar";
+			};
+			name = Debug;
+		};
+		6EA622D12946663C000C7387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kenanjasim.com.Nightscout-Menu-BarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Nightscout Menu Bar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EA6229F2946663B000C7387 /* Build configuration list for PBXProject "Nightscout Menu Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA622C72946663C000C7387 /* Debug */,
+				6EA622C82946663C000C7387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA622C92946663C000C7387 /* Build configuration list for PBXNativeTarget "Nightscout Menu Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA622CA2946663C000C7387 /* Debug */,
+				6EA622CB2946663C000C7387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA622CC2946663C000C7387 /* Build configuration list for PBXNativeTarget "Nightscout Menu BarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA622CD2946663C000C7387 /* Debug */,
+				6EA622CE2946663C000C7387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA622CF2946663C000C7387 /* Build configuration list for PBXNativeTarget "Nightscout Menu BarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA622D02946663C000C7387 /* Debug */,
+				6EA622D12946663C000C7387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EA6229C2946663B000C7387 /* Project object */;
+}
